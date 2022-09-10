@@ -1,0 +1,132 @@
+body {
+    background:#777;
+    margin-top: 5%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  #background {
+      width:300px;
+      height:400px;
+      background:gray;
+      margin:50px auto;
+  }
+  
+  button {
+      border:0;
+      color:#fff;
+  }
+  
+  #result {
+      display:block;
+      font-family: sans-serif;
+      width:230px;
+      height:40px;
+      margin:10px auto;
+      text-align: right;
+      border:0;
+      background:#3b3535;
+      color:#fff;
+      padding-top:10px;
+      font-size:20px;
+      margin-left: 25px;
+      outline: none;
+      overflow: hidden;
+      letter-spacing: 4px;
+      position: relative;
+      top:10px;
+  }
+  
+  #result:hover {
+      cursor: text;
+  }
+  
+  #first-rows {
+      margin-bottom: 20px;
+      position: relative;
+      top:10px;
+  }
+  
+  .rows {
+      width:300px;
+      margin-top:10px;
+  }
+  
+  #delete {
+      width:110px;
+      height:50px;
+      margin-left:25px;
+      border-radius:4px;
+      background: darkgray;
+      color:black;
+      font-size:26px;
+      cursor: pointer;
+      outline:none;
+      border-bottom:3px solid black;
+  }
+  /* Button styling */
+  .btn-style {
+      width:50px;
+      height:50px;
+      margin-left:5px;
+      border-radius:4px;
+  }
+  
+  .eqn {
+      width:50px;
+      height:50px;
+      margin-left:5px;
+      border-radius:4px;
+      background:#17a928;
+      color:#fff;
+      font-size:26px;
+      cursor: pointer;
+      outline:none;
+      border-bottom:3px solid #1f7a29;
+  }
+  #eqn:active {
+      background:#17a928;
+      color:#fff;
+      font-size:26px;
+      cursor: pointer;
+      outline:none;
+      box-shadow: inset 4px 4px 4px #1f7a29;
+  }
+  .first-child {
+   margin-left:25px;
+  }
+  /* Adding background color to the number values */
+   .num{
+      background:#000;
+      color:#fff;
+      font-size:26px;
+      cursor:pointer;
+      outline:none;
+      border-bottom:3px solid #333;
+  }
+   .num:active {
+      background:#000;
+      color:#fff;
+      font-size:26px;
+      cursor:pointer;
+      outline:none;
+      box-shadow: inset 5px 5px 5px #555;
+  }
+  
+  /*Adding background color to the operator values */
+  .opera-bg {
+      background:#333;
+      color:#fff;
+      font-size:26px;
+      cursor: pointer;
+      outline:none;
+      border-bottom:3px solid white;
+  }
+  
+  .opera-bg:active {
+      background:#333;
+      color:#fff;
+      font-size:26px;
+      cursor: pointer;
+      outline:none;
+      box-shadow: inset 4px 4px 4px #555;
+  }  
